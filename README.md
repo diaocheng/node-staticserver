@@ -1,2 +1,2 @@
-# server
-这是一个简单的nodejs的server
+# node-server
+node静态文件服务器
