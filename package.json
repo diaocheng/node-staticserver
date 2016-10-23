@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "this is a nodejs server",
+  "main": "index.js",
+  "scripts": {
+    "test": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diaocheng/server.git"
+  },
+  "keywords": [
+    "nodejs",
+    "server",
+    "static",
+    "server"
+  ],
+  "author": "程刁",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diaocheng/server/issues"
+  },
+  "homepage": "https://github.com/diaocheng/server#readme"
+}
