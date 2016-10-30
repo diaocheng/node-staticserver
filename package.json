@@ -1,6 +1,6 @@
 {
-  "name": "server",
-  "version": "1.0.0",
+  "name": "node-staticserver",
+  "version": "1.0.3",
   "description": "this is a nodejs server",
   "main": "index.js",
   "scripts": {
