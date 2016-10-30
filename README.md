@@ -1,32 +1,37 @@
 # server
-这是一个nodejs服务器
-## 创建一个服务器
-	// 引入服务器模块
-	var server = require('./lib/server.js');
-	// 默认服务器根目录为当前脚本所在目录
+This is a nodejs static file server,
+## Installation
+	$ npm install node-staticserver
+## Examples
+	// load node-staticserver
+	var server = require('node-staticserver');
+	// create a server
 	var app = server();
-	// 启动监听
+	// listen a port
 	app.listen(8080);
-## 参数options
+## Options
+	var server = require('node-staticserver');
 	var app = server({
-	    // 定义根目录
+	    // define server's root path
 	    root: '.',
-	    // 定义默认文件
+	    // define default file
 	    index: 'index.html',
-	    // 允许访问方式
+	    // define allowed method
 	    method: ['GET', 'HEAD'],
-	    // 文件字符编码
+	    // define character encoding
 	    charset: 'utf-8',
-	    // 是否启用文件gzip压缩
+	    // open gzip compression
 	    zip: false,
-	    // 缓存时间(s)
+	    // define cache(s)
 	    cache: 0,
-	    // 自定义响应头信息
+	    // custom response header
 	    header: {
-	        'Age': '1'
+	        'X-Age': '1'
 	    }
 	});
-## 方法method
+## Methods
+	var server = require('node-staticserver');
 	var app = server();
-	// 设置参数(可设置所有options中的参数)
+	// set config parameter,you can set all option's parameter
 	app.set('root',__dirname);
+	app.listen(8080);
