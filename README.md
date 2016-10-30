@@ -1,5 +1,5 @@
 # server
-This is a nodejs static file server,
+This is a nodejs static file server
 ## Installation
 	$ npm install node-staticserver
 ## Examples

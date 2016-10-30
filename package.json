@@ -1,25 +1,24 @@
 {
   "name": "node-staticserver",
   "version": "1.0.3",
-  "description": "this is a nodejs server",
+  "description": "This is a nodejs static file server",
   "main": "index.js",
   "scripts": {
-    "test": "index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/diaocheng/server.git"
+    "url": "git+https://github.com/diaocheng/node-staticserver.git"
   },
   "keywords": [
     "nodejs",
     "server",
-    "static",
-    "server"
+    "static"
   ],
   "author": "程刁",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/diaocheng/server/issues"
+    "url": "https://github.com/diaocheng/node-staticserver/issues"
   },
-  "homepage": "https://github.com/diaocheng/server#readme"
+  "homepage": "https://github.com/diaocheng/node-staticserver#readme"
 }
