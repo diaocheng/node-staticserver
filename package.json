@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nashaofu/node-staticserver.git"
@@ -15,7 +18,7 @@
     "server",
     "static"
   ],
-  "author": "程刁",
+  "author": "nashaofu",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/nashaofu/node-staticserver/issues"
