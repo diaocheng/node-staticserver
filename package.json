@@ -1,6 +1,6 @@
 {
   "name": "node-staticserver",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This is a nodejs static file server",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/diaocheng/node-staticserver.git"
+    "url": "git+https://github.com/nashaofu/node-staticserver.git"
   },
   "keywords": [
     "nodejs",
@@ -18,7 +18,7 @@
   "author": "程刁",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/diaocheng/node-staticserver/issues"
+    "url": "https://github.com/nashaofu/node-staticserver/issues"
   },
-  "homepage": "https://github.com/diaocheng/node-staticserver#readme"
+  "homepage": "https://github.com/nashaofu/node-staticserver#readme"
 }
